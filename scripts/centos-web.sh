@@ -22,4 +22,4 @@ cd /vagrant
 sudo -u vagrant wget -q https://raw.githubusercontent.com/rbkaspr/vagrant-lamp-demo/master/files/index.html
 sudo -u vagrant wget -q https://raw.githubusercontent.com/rbkaspr/vagrant-lamp-demo/master/files/info.php
 
-sudo systemctl httpd restart
+sudo systemctl restart httpd
